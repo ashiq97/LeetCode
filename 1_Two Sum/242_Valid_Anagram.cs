@@ -5,14 +5,14 @@ namespace _1_Two_Sum
 {
     class _242_Valid_Anagram
     {
-        static void Main(string[] args)
-        {
-            // var nums = new int[5] { 0,1,0,3,12};
-            var s = "aacc";
-            var t = "caca";
-            var result = IsAnagram(s, t);
-            Console.WriteLine($"Total {result}");
-        }
+        //static void Main(string[] args)
+        //{
+        //    // var nums = new int[5] { 0,1,0,3,12};
+        //    var s = "aacc";
+        //    var t = "caca";
+        //    var result = IsAnagram(s, t);
+        //    Console.WriteLine($"Total {result}");
+        //}
         public static bool IsAnagram(string s, string t)
         {
 
