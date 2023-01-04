@@ -6,13 +6,13 @@ namespace _1_Two_Sum
 {
     public class _1_twoSum
     {
-        static void Main(string[] args)
-        {
-            var nums = new int[] { 2, 7, 11, 15 };
-            var target = 9;
-            var result = TwoSum(nums, target);
-            Console.WriteLine($"{result}");
-        }
+        //static void main(string[] args)
+        //{
+        //    var nums = new int[] { 2, 7, 11, 15 };
+        //    var target = 9;
+        //    var result = TwoSum(nums, target);
+        //    Console.WriteLine($"{result}");
+        //}
 
         public static int[] TwoSum(int[] nums,int target)
         {
