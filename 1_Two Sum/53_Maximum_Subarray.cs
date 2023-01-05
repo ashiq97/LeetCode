@@ -6,12 +6,12 @@ namespace _1_Two_Sum
 {
     class _53_Maximum_Subarray
     {
-        static void Main(string[] args)
-        {
-            var nums = new int[] { -2, 1,-3,4,-1,2,1,-5,4};
-            var result = maxSubArray(nums);
-            Console.WriteLine($"{result}");
-        }
+        //static void Main(string[] args)
+        //{
+        //    var nums = new int[] { -2, 1,-3,4,-1,2,1,-5,4};
+        //    var result = maxSubArray(nums);
+        //    Console.WriteLine($"{result}");
+        //}
         static int maxSubArray(int[] nums)
         {
             var maxSub = nums[0];
