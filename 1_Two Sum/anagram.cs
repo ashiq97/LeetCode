@@ -6,14 +6,14 @@ namespace _1_Two_Sum
 {
     internal class anagram
     {
-        static void Main(string[] args)
-        {
-            var s = "aacc";
-            var t = "acaac";
-            var result = checkIsValidAnagram(s, t);
-            Console.WriteLine(result);
+        //static void Main(string[] args)
+        //{
+        //    var s = "aacc";
+        //    var t = "acaac";
+        //    var result = checkIsValidAnagram(s, t);
+        //    Console.WriteLine(result);
 
-        }
+        //}
 
         private static bool checkIsValidAnagram(string s, string t)
         {
