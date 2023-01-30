@@ -1,0 +1,9 @@
+﻿
+
+Why builder pattern is used
+--------
+1. When Obejct Creation is Complecated.
+2. For Creating an object need to pass so many data from main class.
+3. when you want to build an object made up from other objects
+4. Hide the Cration of the parts from the Client so both aren't dependete.
+5. When you want the creation of these parts to be independet of the main object.
