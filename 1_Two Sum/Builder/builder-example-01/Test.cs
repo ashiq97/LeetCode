@@ -6,10 +6,10 @@ namespace _1_Two_Sum.Builder.builder_example_01
 {
     internal class Test
     {
-        static void Main(string[] args)
-        {
-            CheckTest();
-        }
+        //static void Main(string[] args)
+        //{
+        //    CheckTest();
+        //}
 
         public static void CheckTest()
         {

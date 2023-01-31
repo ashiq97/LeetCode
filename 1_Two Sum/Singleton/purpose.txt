@@ -1,0 +1,14 @@
+﻿
+use case: When we need only one instance of an object
+----------
+
+why need only one instance? 
+
+1. file writting: definitly we shold stop file writting at same time with more than one thread.file writting should be syncronous.
+(ex: writting error in log file  )
+
+implementation step
+---
+1. Make Private Constractor
+2. Make Public Static Method
+3. Make a Public Static field (static because we need only one instance so we have to hold the instance)
