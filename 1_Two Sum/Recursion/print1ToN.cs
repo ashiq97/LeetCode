@@ -6,13 +6,13 @@ namespace _1_Two_Sum.Recursion
 {
     internal class print1ToN
     {
-        static void Main(string[] args)
-        {
-            var n = 10;
-          // printN(n);
-            n = 1;
-            printN_to_1(n);
-        }
+        //static void Main(string[] args)
+        //{
+        //    var n = 10;
+        //  // printN(n);
+        //    n = 1;
+        //    printN_to_1(n);
+        //}
         static int printN(int n)
         {
 
