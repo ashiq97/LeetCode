@@ -8,11 +8,11 @@ namespace _1_Two_Sum.Thread_
 {
     internal class AsynchronousProgramming
     {
-        static void Main(string[] args)
-        {
-            Test();
-            Console.ReadLine();
-        }
+        //static void Main(string[] args)
+        //{
+        //    Test();
+        //    Console.ReadLine();
+        //}
 
         public static void Test()
         {

@@ -30,15 +30,15 @@ namespace _1_Two_Sum.practice
     }
     class polymorphism
     {
-        public static void Main (string[] args)
-        {
-            Vehicle vehicle = new Car();
+        //public static void Main (string[] args)
+        //{
+        //    Vehicle vehicle = new Car();
 
-            vehicle.move();
+        //    vehicle.move();
 
-            vehicle = new Vehicle();
-            vehicle.move();
-        }
+        //    vehicle = new Vehicle();
+        //    vehicle.move();
+        //}
     }
 
 }
