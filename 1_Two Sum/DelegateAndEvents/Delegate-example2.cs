@@ -7,11 +7,11 @@ namespace _1_Two_Sum.DelegateAndEvents
     public  class Delegate_example2
     {
         delegate int ourDelegate(int x);
-        static void Main(string[] args)
-        {
-            Test();
-            Console.ReadLine();
-        }
+        //static void Main(string[] args)
+        //{
+        //    Test();
+        //    Console.ReadLine();
+        //}
 
         public static void Test()
         {
