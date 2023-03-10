@@ -22,23 +22,15 @@ namespace _1_Two_Sum.LeetCode
             var hasData = new Dictionary<int, int>();
             for (int i = 0; i < nums.Length; i++)
             {
-                //if (!hasData.ContainsKey(nums[i]))
-                //{
-                //    hasData[nums[i]] = nums[i];
-                //}
-                //else
-                //{
-                //    return true;
-                //}
-
-                if (!hasData.ContainsValue(nums[i]))
+                if (!hasData.ContainsKey(nums[i]))
                 {
-                    hasData[i] = nums[i];
+                    hasData[nums[i]] = nums[i];
                 }
                 else
                 {
                     return true;
                 }
+
             }
             return false;
         }
