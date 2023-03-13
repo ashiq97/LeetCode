@@ -7,18 +7,18 @@ namespace _1_Two_Sum.DelegateAndEvents
     internal class DelegateMain
     {
         public delegate int myDelegate(int x, int y);
-        //static void Main(string[] args)
-        //{
-        //    delegateSum delSum = new delegateSum();
+        static void Main(string[] args)
+        {
+            delegateSum delSum = new delegateSum();
 
-        //    myDelegate myDel = delSum.Add;
-        //    var result = myDel(100, 200);
-        //    Console.WriteLine(result);
+            myDelegate myDel = delSum.Add;
+            var result = myDel(100, 200);
+            Console.WriteLine(result);
 
-        //    myDel = delSum.Multiply;
-        //    result = myDel(100, 200);
-        //    Console.WriteLine(result);
-        //}
+            myDel = delSum.Multiply;
+            result = myDel(100, 200);
+            Console.WriteLine(result);
+        }
 
         public static void TestPrinter(string msg,double value)
         {
