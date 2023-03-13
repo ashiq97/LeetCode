@@ -6,16 +6,16 @@ namespace _1_Two_Sum.LeetCode
 {
     internal class ContainsDuplicate_217
     {
-        static void Main(string[] args)
-        {
-            //var input = Console.ReadLine();
+        //static void Main(string[] args)
+        //{
+        //    //var input = Console.ReadLine();
             
-            var input = new int[4] {1,2,3,1};
+        //    var input = new int[4] {1,2,3,1};
            
-            var res = ContainsDuplicate(input);
-            Console.WriteLine(res);
-            Console.ReadLine();
-        }
+        //    var res = ContainsDuplicate(input);
+        //    Console.WriteLine(res);
+        //    Console.ReadLine();
+        //}
 
         public static bool ContainsDuplicate(int[] nums)
         {
