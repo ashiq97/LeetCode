@@ -6,12 +6,12 @@ namespace _1_Two_Sum.LeetCode.NeetCode_1
 {
     internal class Arraingaing_conins_441
     {
-        static void Main(string[] args)
-        {
-            var coins = 10;
-           var output =  ArrangeCoins(coins);
-            Console.WriteLine(output);
-        }
+        //static void Main(string[] args)
+        //{
+        //    var coins = 10;
+        //   var output =  ArrangeCoins(coins);
+        //    Console.WriteLine(output);
+        //}
         private static int ArrangeCoins(int n)
         {
             var c = 0;
